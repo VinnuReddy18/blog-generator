@@ -1,0 +1,90 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #cccccc;
+}
+
+.blog-post {
+  margin-top: 30px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.blog-post h1, .blog-post h2, .blog-post h3, .blog-post h4, .blog-post h5, .blog-post h6 {
+  color: #333;
+  margin-top: 20px;
+}
+
+.blog-post p {
+  line-height: 1.6;
+}
+
+.blog-post ul, .blog-post ol {
+  padding-left: 20px;
+}
+
+.blog-post blockquote {
+  border-left: 4px solid #007bff;
+  padding-left: 15px;
+  margin-left: 0;
+  font-style: italic;
+  color: #555;
+}
+
+.blog-post code {
+  background-color: #f0f0f0;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.blog-post pre {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+.blog-post img {
+  max-width: 100%;
+  height: auto;
+}
+
+.format-selector {
+  margin-bottom: 15px;
+}
+
+.format-selector label {
+  margin-right: 15px;
+}
+
+.format-selector input[type="radio"] {
+  margin-right: 5px;
+}
